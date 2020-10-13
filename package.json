@@ -2,7 +2,7 @@
   "name": "vue-skeleton-component",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "./dist/vue-skeleton-component.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

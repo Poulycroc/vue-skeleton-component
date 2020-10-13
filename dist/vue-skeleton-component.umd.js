@@ -1312,7 +1312,7 @@ var store = __webpack_require__("c6cd");
 /* harmony import */ var core_js_modules_es_array_includes__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_includes__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("2532");
 /* harmony import */ var core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Users_maximebartier_Sites_OpenSources_vue_skelton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("5530");
+/* harmony import */ var _Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("5530");
 /* harmony import */ var poulycroc_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("96c9");
 /* harmony import */ var poulycroc_utils_utils_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(poulycroc_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _services_components_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("1fcc");
@@ -1343,7 +1343,7 @@ function install(Vue, options) {
           customPluginOptions: {
             type: Object,
             default: function _default() {
-              return Object(_Users_maximebartier_Sites_OpenSources_vue_skelton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])({}, options);
+              return Object(_Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])({}, options);
             }
           }
         },
@@ -1475,7 +1475,7 @@ module.exports = function (bitmap, value) {
 /* harmony import */ var core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("b64b");
 /* harmony import */ var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_maximebartier_Sites_OpenSources_vue_skelton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("5530");
+/* harmony import */ var _Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("5530");
 
 
 
@@ -1541,7 +1541,7 @@ var authorizedTypes = ['square', 'round', 'circle'];
      * @param {Object}
      */
     rendStyle: function rendStyle() {
-      return Object(_Users_maximebartier_Sites_OpenSources_vue_skelton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(Object(_Users_maximebartier_Sites_OpenSources_vue_skelton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])({}, this.rendBaseStyle), this.rendSizeStyle);
+      return Object(_Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(Object(_Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])({}, this.rendBaseStyle), this.rendSizeStyle);
     },
 
     /**
