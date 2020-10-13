@@ -6,8 +6,6 @@
 </template>
 
 <script>
-import { isNil } from '~utils'
-
 const authorizedTypes = ['p', 'h1', 'h2', 'h3']
 
 export default {
@@ -46,7 +44,7 @@ export default {
         ...this.rendBaseStyle,
         width: `${this.width}px`
       }
-      if (!isNil(this.height)) _r.height = `${this.height}px`
+      if (!this.$utils.isNil(this.height)) _r.height = `${this.height}px`
       return _r
     },
 
@@ -55,7 +53,7 @@ export default {
      */
     rendClass() {
       const { height, type } = this
-      return isNil(height) ? `font_${type}` : ''
+      return this.$utils.isNil(height) ? `font_${type}` : ''
     }
   }
 }

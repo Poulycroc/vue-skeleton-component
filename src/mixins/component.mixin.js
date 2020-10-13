@@ -1,5 +1,3 @@
-import { makeKey, isNil } from '~utils'
-
 const authorisedFloats = ['left', 'right']
 
 export default {
@@ -22,7 +20,8 @@ export default {
      * @param {String}
      */
     componentRef() {
-      return `skeleton_component_${makeKey(10)}`
+      const k = this.$utils.makeKey(10)
+      return `skeleton_component_${k}`
     },
 
     /**
@@ -42,13 +41,13 @@ export default {
         '--radius': radius + 'px',
         '--gradient-start': gradientStart || '#ffffff',
         '--gradient-end': gradientEnd || '#e6e6e6',
-        '--font-p': !isNil(fontP) ? `${fontP}px` : '18px',
-        '--font-h1': !isNil(fontH1) ? `${fontH1}px` : '40px',
-        '--font-h2': !isNil(fontH2) ? `${fontH2}px` : '33px',
-        '--font-h3': !isNil(fontH3) ? `${fontH3}px` : '24px'
+        '--font-p': !this.$utils.isNil(fontP) ? `${fontP}px` : '18px',
+        '--font-h1': !this.$utils.isNil(fontH1) ? `${fontH1}px` : '40px',
+        '--font-h2': !this.$utils.isNil(fontH2) ? `${fontH2}px` : '33px',
+        '--font-h3': !this.$utils.isNil(fontH3) ? `${fontH3}px` : '24px'
       }
-      if (!isNil(this.margin)) _r.margin = this.margin
-      if (!isNil(this.float)) _r.float = this.float
+      if (!this.$utils.isNil(this.margin)) _r.margin = this.margin
+      if (!this.$utils.isNil(this.float)) _r.float = this.float
       return _r
     }
   }

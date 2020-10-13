@@ -1,4 +1,4 @@
-import { toKebabCase } from '~utils'
+import * as utils from 'poulycroc-utils/utils.js'
 
 import components from './services/components.service'
 
@@ -11,6 +11,8 @@ function install(Vue, options) {
   if (install.installed) return
   install.installed = true
 
+  Vue.prototype.$utils = utils
+
   // Declare all components when options is not set or array is empty
   // Or when the user explicitely specify it
   for (const component in components) {
@@ -20,7 +22,7 @@ function install(Vue, options) {
       options.components.length === 0 ||
       options.components.includes(component)
     ) {
-      const componentName = `${toKebabCase(component)}-skeleton`
+      const componentName = `${utils.toKebabCase(component)}-skeleton`
 
       Vue.component(componentName, {
         extends: components[component],

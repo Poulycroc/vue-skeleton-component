@@ -6,8 +6,6 @@
 </template>
 
 <script>
-import { isNil } from '~utils'
-
 const authorizedTypes = ['square', 'round', 'circle']
 
 export default {
@@ -108,7 +106,7 @@ export default {
 
       const targetKey = this.getClosestBiggerInt(responsiveMap, s)
       // if (s <= ) return users[Number(key)]
-      this.responsiveState.size = !isNil(targetKey)
+      this.responsiveState.size = !this.$utils.isNil(targetKey)
         ? this.mq[targetKey].size
         : this.size
 
