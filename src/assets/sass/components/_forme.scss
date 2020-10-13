@@ -1,0 +1,10 @@
+.forme-skeleton--component-wrapper {
+  .forme {
+    &.circle {
+      border-radius: 50%;
+    }
+    &.square {
+      border-radius: 0;
+    }
+  }
+}

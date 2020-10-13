@@ -1,0 +1,13 @@
+.paragraph-skeleton--component-wrapper {
+  .line {
+    width: 100%;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &:last-child {
+      width: 80%;
+    }
+  }
+}

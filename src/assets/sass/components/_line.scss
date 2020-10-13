@@ -1,0 +1,18 @@
+.line-skeleton--component-wrapper {
+  .line {
+    &.font_ {
+      &h1 {
+        height: var(--font-h1);
+      }
+      &h2 {
+        height: var(--font-h2);
+      }
+      &h3 {
+        height: var(--font-h3);
+      }
+      &p {
+        height: var(--font-p);
+      }
+    }
+  }
+}

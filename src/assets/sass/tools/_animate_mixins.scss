@@ -1,0 +1,10 @@
+@mixin bgEventAnimation($c1, $c2) {
+  background-size: 400% 400% !important;
+  animation: EventsGradientAnimation 4000ms ease-in-out infinite;
+  background: linear-gradient(-45deg, $c1, $c2, $c1, $c2);
+}
+
+@keyframes EventsGradientAnimation {
+	0%, 100%  { background-position:   0% 50% }
+  50%       { background-position: 100% 50% }
+}

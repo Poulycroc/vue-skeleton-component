@@ -1,0 +1,22 @@
+/*
+ * MIXINS
+ *
+ * scss helpers and mixins
+ */
+@import 'tools/media-queries';
+@import 'tools/mixins';
+@import 'tools/animate_mixins';
+
+div[class$='--component-wrapper'] {
+  @include size(f, auto);
+  @include clearfix;
+
+  .element {
+    @include bgEventAnimation(var(--gradient-start), var(--gradient-end));
+    border-radius: var(--radius);
+  }
+}
+
+@import './components/forme';
+@import './components/line';
+@import './components/paragraph';
