@@ -309,7 +309,7 @@ module.exports = function (METHOD_NAME) {
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a9f9daf2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Button.vue?vue&type=template&id=cb8d4dc4&lang=pug&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"604b7e75-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Button.vue?vue&type=template&id=cb8d4dc4&lang=pug&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"button-skeleton--component-wrapper",class:_vm.rendPositionClass,attrs:{"id":_vm.componentRef}},[_c('div',{staticClass:"element button",class:_vm.rendClass,style:(_vm.rendStyle)})])}
 var staticRenderFns = []
 
@@ -546,7 +546,7 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var Button = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a9f9daf2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Forme.vue?vue&type=template&id=79c7f689&lang=pug&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"604b7e75-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Forme.vue?vue&type=template&id=79c7f689&lang=pug&
 var Formevue_type_template_id_79c7f689_lang_pug_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"forme-skeleton--component-wrapper",attrs:{"id":_vm.componentRef}},[_c('div',{staticClass:"element forme",class:_vm.rendClass,style:(_vm.rendStyle)})])}
 var Formevue_type_template_id_79c7f689_lang_pug_staticRenderFns = []
 
@@ -578,7 +578,7 @@ var Forme_component = normalizeComponent(
 )
 
 /* harmony default export */ var Forme = (Forme_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a9f9daf2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Line.vue?vue&type=template&id=4a115dea&lang=pug&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"604b7e75-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Line.vue?vue&type=template&id=4a115dea&lang=pug&
 var Linevue_type_template_id_4a115dea_lang_pug_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"line-skeleton--component-wrapper",attrs:{"id":_vm.componentRef}},[_c('div',{staticClass:"element line",class:_vm.rendClass,style:(_vm.rendStyle)})])}
 var Linevue_type_template_id_4a115dea_lang_pug_staticRenderFns = []
 
@@ -671,7 +671,7 @@ var Line_component = normalizeComponent(
 )
 
 /* harmony default export */ var Line = (Line_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a9f9daf2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Paragraph.vue?vue&type=template&id=0adf98d2&lang=pug&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"604b7e75-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Paragraph.vue?vue&type=template&id=0adf98d2&lang=pug&
 var Paragraphvue_type_template_id_0adf98d2_lang_pug_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"paragraph-skeleton--component-wrapper",class:_vm.rendClass,attrs:{"id":_vm.componentRef}},_vm._l((_vm.lines),function(n){return _c('div',{key:n,staticClass:"element line",class:_vm.rendLineName(n),style:(_vm.rendStyle)})}),0)}
 var Paragraphvue_type_template_id_0adf98d2_lang_pug_staticRenderFns = []
 
@@ -1340,9 +1340,9 @@ var store = __webpack_require__("c6cd");
 /* harmony import */ var core_js_modules_es_array_includes__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_includes__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("2532");
 /* harmony import */ var core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("5530");
-/* harmony import */ var poulycroc_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("96c9");
-/* harmony import */ var poulycroc_utils_utils_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(poulycroc_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Users_maximebartier_Sites_OpenSource_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("5530");
+/* harmony import */ var _poulycroc_js_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("a33e");
+/* harmony import */ var _poulycroc_js_utils_utils_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_poulycroc_js_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _services_components_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("1fcc");
 /* harmony import */ var _mixins_component_mixin__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("fb9d");
 /* harmony import */ var _assets_sass_app_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("29d8");
@@ -1359,19 +1359,19 @@ var store = __webpack_require__("c6cd");
 function install(Vue, options) {
   if (install.installed) return;
   install.installed = true;
-  Vue.prototype.$utils = poulycroc_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__; // Declare all components when options is not set or array is empty
+  Vue.prototype.$utils = _poulycroc_js_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__; // Declare all components when options is not set or array is empty
   // Or when the user explicitely specify it
 
   for (var component in _services_components_service__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"]) {
     if (!options || !options.components || options.components.length === 0 || options.components.includes(component)) {
-      var componentName = "".concat(poulycroc_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__["toKebabCase"](component), "-skeleton");
+      var componentName = "".concat(_poulycroc_js_utils_utils_js__WEBPACK_IMPORTED_MODULE_3__["toKebabCase"](component), "-skeleton");
       Vue.component(componentName, {
         extends: _services_components_service__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"][component],
         props: {
           customPluginOptions: {
             type: Object,
             default: function _default() {
-              return Object(_Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])({}, options);
+              return Object(_Users_maximebartier_Sites_OpenSource_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])({}, options);
             }
           }
         },
@@ -1503,7 +1503,7 @@ module.exports = function (bitmap, value) {
 /* harmony import */ var core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("b64b");
 /* harmony import */ var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("5530");
+/* harmony import */ var _Users_maximebartier_Sites_OpenSource_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("5530");
 
 
 
@@ -1569,7 +1569,7 @@ var authorizedTypes = ['square', 'round', 'circle'];
      * @param {Object}
      */
     rendStyle: function rendStyle() {
-      return Object(_Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(Object(_Users_maximebartier_Sites_OpenSources_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])({}, this.rendBaseStyle), this.rendSizeStyle);
+      return Object(_Users_maximebartier_Sites_OpenSource_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(Object(_Users_maximebartier_Sites_OpenSource_vue_skeleton_component_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])({}, this.rendBaseStyle), this.rendSizeStyle);
     },
 
     /**
@@ -2068,7 +2068,34 @@ module.exports = isForced;
 
 /***/ }),
 
-/***/ "96c9":
+/***/ "9bf2":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("83ab");
+var IE8_DOM_DEFINE = __webpack_require__("0cfb");
+var anObject = __webpack_require__("825a");
+var toPrimitive = __webpack_require__("c04e");
+
+var nativeDefineProperty = Object.defineProperty;
+
+// `Object.defineProperty` method
+// https://tc39.github.io/ecma262/#sec-object.defineproperty
+exports.f = DESCRIPTORS ? nativeDefineProperty : function defineProperty(O, P, Attributes) {
+  anObject(O);
+  P = toPrimitive(P, true);
+  anObject(Attributes);
+  if (IE8_DOM_DEFINE) try {
+    return nativeDefineProperty(O, P, Attributes);
+  } catch (error) { /* empty */ }
+  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported');
+  if ('value' in Attributes) O[P] = Attributes.value;
+  return O;
+};
+
+
+/***/ }),
+
+/***/ "a33e":
 /***/ (function(module, exports) {
 
 /**
@@ -2080,18 +2107,20 @@ module.exports = isForced;
  * @param {*} any - String to convert
  * @return {Boolean}
  */
-const isNil = any => {
-  return any === undefined || any === null;
+const isNil = (any) => {
+  return (
+    any === undefined || any === null || any === "undefined" || any === "null"
+  );
 };
 
 /**
  * Check if element is an object
- * @param {*} any - String to convert
+ * @param {*} any
  * @return {Boolean}
  */
-const isObj = any => {
-  if (isNil(any)) return;
-  return typeof any === "object";
+const isObj = (any) => {
+  if (isNil(any)) return false;
+  return typeof any === "object" && !Array.isArray(any);
 };
 
 /**
@@ -2101,8 +2130,9 @@ const isObj = any => {
  * @return {Object} - ex: { fname:"xyz", lname:"abc" }
  */
 const objPick = (model, object) => {
+  if (isNil(model) || isNil(object)) return null;
   const res = {};
-  Object.keys(model).forEach(key => (res[key] = object[key]));
+  Object.keys(model).forEach((key) => (res[key] = object[key]));
   return res;
 };
 
@@ -2111,15 +2141,29 @@ const objPick = (model, object) => {
  * @param {Number} url - url's video
  * @return {String}
  */
-const embedYtVideo = url => {
-  const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+const embedYtVideo = (url) => {
+  if (!url.includes("youtu")) throw new Error("Only accept YouTube url");
+  const regExp =
+    /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
   const match = url.match(regExp);
 
-  if (match && match[2].length === 11) {
-    return match[2];
-  } else {
-    return "error";
-  }
+  if (match && match[2].length === 11) return match[2];
+  return "error";
+};
+
+/**
+ * Remove duplicated value from array
+ * @param {Array} arr
+ * @return {Array}
+ */
+const removeDuplicates = (arr) => {
+  if (isNil(arr)) throw new Error("Can't work on undifined value");
+  if (!Array.isArray(arr)) throw new Error("Only accept 'Array'");
+  const uniques = [];
+  arr.forEach((e) => {
+    if (!uniques.includes(e)) uniques.push(e);
+  });
+  return uniques;
 };
 
 /**
@@ -2127,8 +2171,8 @@ const embedYtVideo = url => {
  * @param {Number} length - length of random string
  * @return {String}
  */
-const makeKey = length => {
-  const n = length === undefined ? 6 : length;
+const makeKey = (length) => {
+  const n = isNil(length) ? 6 : length;
   let result = "";
   const chr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   const chrLength = chr.length;
@@ -2143,7 +2187,7 @@ const makeKey = length => {
  * @param {*} any - String to convert
  * @return {Boolean}
  */
-const isBlank = str => {
+const isBlank = (str) => {
   return !str || /^\s*$/.test(str);
 };
 
@@ -2152,13 +2196,17 @@ const isBlank = str => {
  * @param {Array or Object} elem
  * @return {Boolean}
  */
-const isEmpty = elem => {
-  if (isObj(elem)) {
-    return Object.keys(elem).length === 0 && elem.constructor === Object;
-  } else if (Array.isArray(elem)) {
-    return elem.length === 0;
+const isEmpty = (elem) => {
+  if (!isNil(elem)) {
+    if (isObj(elem)) {
+      return Object.entries(elem).length === 0 && elem.constructor === Object;
+    } else if (Array.isArray(elem)) {
+      return elem.length === 0;
+    } else {
+      throw new Error("Only accept 'Array' or 'Object'");
+    }
   } else {
-    throw new Error("Only accept 'Array' or 'Object'");
+    throw new Error("Can't check if 'null' or 'undefined' is empty");
   }
 };
 
@@ -2167,7 +2215,7 @@ const isEmpty = elem => {
  * @param {String} date
  * @return {Boolean}
  */
-const isValidDate = date => {
+const isValidDate = (date) => {
   return date instanceof Date && !isNaN(date);
 };
 
@@ -2176,7 +2224,7 @@ const isValidDate = date => {
  * @param {String} str - String to convert
  * @return {String}
  */
-const lower = str => {
+const lower = (str) => {
   return str.toLowerCase();
 };
 
@@ -2199,8 +2247,8 @@ const getChildrenN = (obj, numb) => {
  * @param {String} str - String to convert
  * @return {String}
  */
-const toKebabCase = str => {
-  if (isNil(str)) return;
+const toKebabCase = (str) => {
+  if (isNil(str)) return null;
   return str
     .replace(/([a-z])([A-Z])/g, "$1-$2")
     .replace(/\s+/g, "-")
@@ -2208,10 +2256,23 @@ const toKebabCase = str => {
 };
 
 /**
+ * Convert CamelCaseString to snake_case
+ * @param {String} str - String to convert
+ * @return {String}
+ */
+const toSnakeCase = (str) => {
+  if (isNil(str)) return null;
+  return str
+    .replace(/([a-z])([A-Z])/g, "$1_$2")
+    .replace(/\s+/g, "_")
+    .toLowerCase();
+};
+
+/**
  * @param {Object} obj - String to convert
  * @return {String}
  */
-const getObjKeyName = obj => {
+const getObjKeyName = (obj) => {
   if (isNil(obj) && !isObj(obj)) return;
   return Object.keys(obj)[0];
 };
@@ -2221,8 +2282,10 @@ const getObjKeyName = obj => {
  * @param {Number or String} int
  * @return {String}
  */
-const addZero = int => {
-  return int < 10 ? `0${int}` : int;
+const addZero = (int) => {
+  if (isNil(int)) throw new Error("Value can't be 'null' or 'undefined'");
+  if (isNaN(int)) throw new Error("'addZero' only accept 'Int' or 'Number'");
+  return int < 10 ? `0${int}` : `${int}`;
 };
 
 /**
@@ -2230,9 +2293,26 @@ const addZero = int => {
  * @param {String} str
  * @return {String}
  */
-const capitalize = str => {
-  if (isNil(str)) return;
+const capitalize = (str) => {
+  if (isNil(str)) throw new Error("Value can't be 'null' or 'undefined'");
+  if (typeof str !== "string" || !str instanceof String)
+    throw new Error("Value need to be a string");
   return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
+/**
+ * Pluralize
+ * @param {String} singular
+ * @param {Number} count
+ * @param {String|null} plural
+ * @return {string}
+ */
+const pluralize = (singular, count = 1, plural = null) => {
+  if (isNil(singular)) throw new Error("Value can't be 'null' or 'undefined'");
+  if (typeof singular !== "string" || !singular instanceof String)
+    throw new Error("Value need to be a string");
+  if (isNil(plural)) return count > 1 ? `${singular}s` : singular;
+  return count > 1 || count === 0 ? plural : singular;
 };
 
 /**
@@ -2243,6 +2323,8 @@ const capitalize = str => {
  * @param {Object} obj
  */
 const omit = (keys, obj) => {
+  if (isNil(keys) || isNil(obj)) return null;
+  if (!isObj(obj) || !Array.isArray(keys)) return null;
   const _o = Object.entries(obj);
   return Object.fromEntries(_o.filter(([k]) => !keys.includes(k)));
 };
@@ -2254,8 +2336,7 @@ const omit = (keys, obj) => {
  * @return {Boolean}
  */
 const isEqual = (a, b) => {
-  if (!["object", "array"].includes(typeof a))
-    throw new Error("Can only compare 'Arrays' or 'Object'");
+  if (arguments.length < 2) throw Error("You only can compar 2 element");
 
   Object.compare = function (obj1, obj2) {
     //Loop through properties in object 1
@@ -2283,7 +2364,7 @@ const isEqual = (a, b) => {
     }
 
     //Check object 2 for any extra properties
-    for (var p in obj2) if (typeof obj1[p] == "undefined") return false;
+    for (var p in obj2) if (isNil(obj1[p])) return false;
     return true;
   };
 
@@ -2313,7 +2394,109 @@ const isEqual = (a, b) => {
   if (isObject) return Object.compare(a, b);
   if (isArray) return a.equals(b);
 
-  return false;
+  throw new Error("Can only compare 'Arrays' or 'Object'");
+};
+
+/**
+ * @param {Array} arr
+ * @param {Number} val
+ * @return {*}
+ */
+const arrIndexOf = (arr, val) => {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == val) return i;
+  }
+  return -1;
+};
+
+/**
+ * @param {Array or Object} source
+ * @return {*}
+ */
+const deepCopy = (source) => {
+  if (!isObj(source)) return source;
+  const result = {};
+  for (let key in source) {
+    result[key] =
+      typeof source[key] === "object"
+        ? this.deepCopy(source[key])
+        : source[key];
+  }
+  return result;
+};
+
+/**
+ * transform string in Object path
+ * @param source {Array|Object}
+ * @param string {String}
+ * @returns Object path
+ */
+const convertStringToPropGetter = (source, string) => {
+  if (isNil(string)) return;
+  return string.split(".").reduce((o, i) => o[i], source);
+};
+
+/**
+ * Gonna rend a string of params
+ * @param {Object} obj
+ * @return {String}
+ */
+const constructQueries = (obj) => {
+  const arr = [];
+  Object.keys(obj).forEach((key) => arr.push(`${key}=${obj[key]}`));
+  return arr.join("&");
+};
+
+/**
+ * Get child object form value
+ * from Object or Array
+ *
+ * only use if your value is inside a object
+ *
+ * @param {Array or Object} focus
+ * @param {String} keyName - in wich key
+ * @param {Any} value - searched value
+ * @return {Object}
+ */
+const getObjectFromValue = (focus, keyName, value) => {
+  if (isNil(focus) || isNil(keyName) || isNil(value)) return null;
+
+  let res = null;
+  if (Array.isArray(focus)) {
+    focus.forEach((elem) => {
+      if (elem[keyName] === value) res = elem;
+    });
+  } else {
+    Object.keys(focus).forEach((elem) => {
+      if (focus[elem][keyName] === value) res = focus[elem];
+    });
+  }
+  return res;
+};
+
+/**
+ * Return only object's keys needed
+ * @param {Array} keys
+ * @param {Object} obj
+ * @return {Object}
+ */
+const only = (keys, obj) => {
+  if (isNil(keys) || isNil(obj)) return null;
+  if (!isObj(obj) || !Array.isArray(keys)) return null;
+
+  const res = {};
+  keys.forEach((key) => {
+    Object.assign(res, { [key]: obj[key] });
+  });
+  return res;
+};
+
+/**
+ * @param {String} string
+ * @return {Boolean}
+ */
+const isDigitsOnly = (string) => {
+  return [...string].every((c) => "0123456789".includes(c));
 };
 
 module.exports = {
@@ -2324,42 +2507,25 @@ module.exports = {
   isValidDate,
   objPick,
   embedYtVideo,
+  only,
+  isDigitsOnly,
   makeKey,
   lower,
   getChildrenN,
   toKebabCase,
+  toSnakeCase,
   getObjKeyName,
+  removeDuplicates,
   addZero,
   capitalize,
+  pluralize,
   omit,
-  isEqual
-};
-
-
-/***/ }),
-
-/***/ "9bf2":
-/***/ (function(module, exports, __webpack_require__) {
-
-var DESCRIPTORS = __webpack_require__("83ab");
-var IE8_DOM_DEFINE = __webpack_require__("0cfb");
-var anObject = __webpack_require__("825a");
-var toPrimitive = __webpack_require__("c04e");
-
-var nativeDefineProperty = Object.defineProperty;
-
-// `Object.defineProperty` method
-// https://tc39.github.io/ecma262/#sec-object.defineproperty
-exports.f = DESCRIPTORS ? nativeDefineProperty : function defineProperty(O, P, Attributes) {
-  anObject(O);
-  P = toPrimitive(P, true);
-  anObject(Attributes);
-  if (IE8_DOM_DEFINE) try {
-    return nativeDefineProperty(O, P, Attributes);
-  } catch (error) { /* empty */ }
-  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported');
-  if ('value' in Attributes) O[P] = Attributes.value;
-  return O;
+  isEqual,
+  arrIndexOf,
+  deepCopy,
+  convertStringToPropGetter,
+  constructQueries,
+  getObjectFromValue,
 };
 
 

@@ -1,4 +1,4 @@
-import * as utils from 'poulycroc-utils/utils.js'
+import * as utils from '@poulycroc/js-utils/utils.js'
 
 import components from './services/components.service'
 
