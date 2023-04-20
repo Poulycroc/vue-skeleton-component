@@ -15,7 +15,7 @@ const mapHeight = {
   default: '40px',
   medium: '36px',
   small: '32px',
-  mini: '28px'
+  mini: '28px',
 }
 const authorizedSizes = Object.keys(mapHeight)
 
@@ -25,34 +25,34 @@ export default {
     full: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     circle: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     round: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     width: {
       type: Number,
       required: false,
-      default: 100
+      default: 100,
     },
     size: {
       type: String,
       required: false,
       default: 'default',
-      validator: (v) => authorizedSizes.includes(v)
+      validator: (v) => authorizedSizes.includes(v),
     },
     centered: {
       type: Boolean,
       required: false,
-      default: false
-    }
+      default: false,
+    },
   },
   computed: {
     /**
@@ -62,7 +62,7 @@ export default {
       return {
         'is-full': this.full,
         'is-circle': this.circle,
-        'is-round': this.round
+        'is-round': this.round,
       }
     },
 
@@ -73,7 +73,7 @@ export default {
       return {
         ...this.rendBaseStyle,
         width: `${this.width}px`,
-        height: mapHeight[this.size]
+        height: mapHeight[this.size],
       }
     },
 
@@ -83,7 +83,7 @@ export default {
     rendPositionClass() {
       if (!this.centered) return
       return 'centered_content'
-    }
-  }
+    },
+  },
 }
 </script>

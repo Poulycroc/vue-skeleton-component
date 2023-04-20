@@ -7,5 +7,5 @@ export default {
   Button,
   Forme,
   Line,
-  Paragraph
+  Paragraph,
 }

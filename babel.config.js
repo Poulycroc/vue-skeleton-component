@@ -3,8 +3,9 @@ module.exports = {
     [
       '@vue/cli-plugin-babel/preset',
       {
-        polyfills: ['es6.promise', 'es6.symbol']
-      }
-    ]
-  ]
+        useBuiltIns: 'entry',
+        corejs: 3,
+      },
+    ],
+  ],
 }

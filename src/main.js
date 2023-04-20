@@ -26,13 +26,13 @@ function install(Vue, options) {
 
       Vue.component(componentName, {
         extends: components[component],
+        mixins: [componentMixins],
         props: {
           customPluginOptions: {
             type: Object,
-            default: () => ({ ...options })
-          }
+            default: () => ({ ...options }),
+          },
         },
-        mixins: [componentMixins]
       })
     }
   }
@@ -40,7 +40,7 @@ function install(Vue, options) {
 
 // Create module definition for Vue.use()
 const plugin = {
-  install
+  install,
 }
 
 // To auto-install when vue is found

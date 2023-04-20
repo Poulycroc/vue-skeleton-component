@@ -15,28 +15,28 @@ export default {
       type: String,
       required: false,
       default: 'square',
-      validator: (v) => authorizedTypes.includes(v)
+      validator: (v) => authorizedTypes.includes(v),
     },
     centered: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     mq: {
       type: Object,
       required: false,
-      default: null
+      default: null,
     },
     size: {
       type: [Number, String],
-      default: null
-    }
+      default: null,
+    },
   },
   data() {
     return {
       responsiveState: {
-        size: this.size
-      }
+        size: this.size,
+      },
     }
   },
   computed: {
@@ -51,7 +51,7 @@ export default {
         minWidth: `${size}px`,
         minHeight: `${size}px`,
         width: `${size}px`,
-        height: `${size}px`
+        height: `${size}px`,
       }
     },
 
@@ -61,7 +61,7 @@ export default {
     rendStyle() {
       return {
         ...this.rendBaseStyle,
-        ...this.rendSizeStyle
+        ...this.rendSizeStyle,
       }
     },
 
@@ -70,7 +70,7 @@ export default {
      */
     rendClass() {
       return [this.type, this.rendSizeStyle]
-    }
+    },
   },
   mounted() {
     if (process.browser) {
@@ -111,7 +111,7 @@ export default {
         : this.size
 
       // this.vpWidth = s
-    }
-  }
+    },
+  },
 }
 </script>

@@ -22,20 +22,20 @@ export default {
     lines: {
       type: Number,
       required: false,
-      default: 3
+      default: 3,
     },
     fontSize: {
       // in pixel
       type: Number,
       required: false,
-      default: 18
+      default: 18,
     },
     align: {
       type: String,
       required: false,
       default: 'left',
-      validator: (v) => authoriedAligns.includes(v)
-    }
+      validator: (v) => authoriedAligns.includes(v),
+    },
   },
   computed: {
     /**
@@ -44,7 +44,7 @@ export default {
     rendStyle() {
       return {
         ...this.rendBaseStyle,
-        height: `${this.fontSize}px`
+        height: `${this.fontSize}px`,
       }
     },
 
@@ -53,7 +53,7 @@ export default {
      */
     rendClass() {
       return `is-align-${this.align}`
-    }
+    },
   },
   methods: {
     /**
@@ -62,7 +62,7 @@ export default {
      */
     rendLineName(n) {
       return `paragraph-line-${n}`
-    }
-  }
+    },
+  },
 }
 </script>

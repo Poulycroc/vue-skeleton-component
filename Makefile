@@ -12,6 +12,7 @@ clean-install:
 	npm i
 
 release:
+	npm run lint
 	make build
 	git add .
 	git commit -m "release _ $(CURRENT_DATE)"

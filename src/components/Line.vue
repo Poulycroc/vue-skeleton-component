@@ -14,26 +14,26 @@ export default {
     lines: {
       type: Number,
       required: false,
-      default: 3
+      default: 3,
     },
     height: {
       // in pixel
       type: Number,
       required: false,
-      default: null
+      default: null,
     },
     width: {
       // in pixel
       type: Number,
       required: false,
-      default: 100
+      default: 100,
     },
     type: {
       type: String,
       required: false,
       default: 'p',
-      validator: (v) => authorizedTypes.includes(v)
-    }
+      validator: (v) => authorizedTypes.includes(v),
+    },
   },
   computed: {
     /**
@@ -42,7 +42,7 @@ export default {
     rendStyle() {
       const _r = {
         ...this.rendBaseStyle,
-        width: `${this.width}px`
+        width: `${this.width}px`,
       }
       if (!this.$utils.isNil(this.height)) _r.height = `${this.height}px`
       return _r
@@ -54,7 +54,7 @@ export default {
     rendClass() {
       const { height, type } = this
       return this.$utils.isNil(height) ? `font_${type}` : ''
-    }
-  }
+    },
+  },
 }
 </script>
